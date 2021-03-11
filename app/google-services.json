@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "954010323294",
+    "project_id": "gimme-db823",
+    "storage_bucket": "gimme-db823.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954010323294:android:262622e34cd3e16b5567cf",
+        "android_client_info": {
+          "package_name": "com.example.gimme2202"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954010323294-66cp2mdoh6cosrdbfvkvb8qors51sdde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5FA-7cKWR9XDvaUrQ7jJ44rVLWkk1Hzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954010323294-66cp2mdoh6cosrdbfvkvb8qors51sdde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur_bg"
+    tools:context=".SetupActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilePic_setup"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:src="@drawable/grey_profile" />
+
+    <EditText
+        android:id="@+id/usernameTF_setup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="383dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="User Name"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/fullNameTF_setup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="250dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Full Name"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/countryTF_setup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="196dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Country"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/saveBTN_setup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="115dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Save" />
+
+</RelativeLayout>

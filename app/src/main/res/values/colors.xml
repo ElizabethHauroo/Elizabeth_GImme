@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#2196F3</color>
+    <color name="purple_500">#2196F3</color>
+    <color name="purple_700">#34acbc</color> <!-- The very top bar, where the time and battery is-->
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#f93c4f</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Black">#000000</color>
+</resources>
